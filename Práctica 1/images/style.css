@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: auto;
+    width: 500px;
+    margin:0 auto;
+    background-color: rgb(214, 214, 214);
+}
+
+.container_nutrition{
+    margin-bottom: 20px;
+}
+
+.título {
+    font-family:"Coiny";
+    color: rgb(47, 134, 65);
+    font-size: 20px;
+    text-align: center;
+    margin:  40px 0;
+}
+
+.picture{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.container_recipe{
+    width: 100%;
+    padding:10px;
+    line-height: 30px;
+    font-size: 18px;
+    background-color:rgb(234, 239, 239);
+}
+
+.container_information{
+    margin: 0px 40px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul, ol{
+    margin-left: 30px;
+}
+
+hr {
+    background-color: rgb(197, 197, 197);
+    height: 2px;
+    border-style: none;
+    margin:  20px 0;
+}
+
+::marker{
+    color: brown; /* con ayuda de Internet y 
+    */
+}
+
+h2 {
+    color: rgb(148, 140, 212);
+    font-size: 28px;
+    margin: 25px 0;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nutrition{
+    margin: 20px 0px;
+}
+
+ol li {
+    margin: 20px 0px;
+}
